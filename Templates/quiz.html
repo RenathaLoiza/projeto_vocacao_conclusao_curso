@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz - Pergunta {{ question_num }}</title>
+</head>
+<body>
+    <h1>Pergunta {{ question_num }}</h1>
+    <p>{{ question[1] }}</p> <!-- Exibe o texto da pergunta (supondo que o enunciado da pergunta está na coluna 1) -->
+
+    <form action="{{ url_for('quiz', player=player, question_num=question_num, points=points) }}" method="post">
+        <label>
+            <input type="radio" name="responder" value="1"> {{ question[2] }} <!-- Alternativa A -->
+        </label><br>
+        <label>
+            <input type="radio" name="responder" value="2"> {{ question[3] }} <!-- Alternativa B -->
+        </label><br>
+        <label>
+            <input type="radio" name="responder" value="3"> {{ question[4] }} <!-- Alternativa C -->
+        </label><br>
+        <label>
+            <input type="radio" name="responder" value="4"> {{ question[5] }} <!-- Alternativa D -->
+        </label><br><br>
+
+        <button type="submit">Responder</button>
+    </form>
+
+    <p>Pontuação: {{ points }}</p>
+</body>
+</html>
