@@ -126,11 +126,11 @@ O projeto é composto pelas seguintes partes:
 
     ![Página de Pergunta](https://via.placeholder.com/600x400.png?text=Quiz+de+Perguntas)
 
-3. **Resultado Final**:
+<!--3. **Resultado Final**:
 
     Após responder todas as perguntas, o jogo exibirá o seu resultado final.
 
-    ![Página de Resultados](https://via.placeholder.com/600x400.png?text=Resultado+Final)
+    ![Página de Resultados](https://via.placeholder.com/600x400.png?text=Resultado+Final)-->
 
 ## Estrutura do Código
 
