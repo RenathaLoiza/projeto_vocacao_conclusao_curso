@@ -72,7 +72,7 @@ def result(player, points):
     cursor.close()
     conn.close()
 
-    return render_template('result.html', player=player, points=points)
+    return render_template('inicio.html', player=player, points=points)
 
 if __name__== '__main__':
     app.run(debug=True)
