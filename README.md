@@ -112,7 +112,7 @@ O projeto é composto pelas seguintes partes:
 3. **Responda às Perguntas**: O quiz apresenta perguntas com quatro alternativas. Escolha a alternativa correta.
 4. **Veja o Resultado**: Ao final do quiz, o jogo exibe a sua pontuação e atualiza o banco de dados com o seu nome e pontuação.
 
-## Exemplo de Funcionamento
+<!--## Exemplo de Funcionamento
 
 1. **Página de Início**:
 
@@ -126,7 +126,7 @@ O projeto é composto pelas seguintes partes:
 
     ![Página de Pergunta](http://127.0.0.1:5000/quiz/)
 
-<!--3. **Resultado Final**:
+3. **Resultado Final**:
 
     Após responder todas as perguntas, o jogo exibirá o seu resultado final.
 
