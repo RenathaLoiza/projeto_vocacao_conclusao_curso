@@ -10,7 +10,7 @@ Este projeto é um **Jogo de Perguntas e Respostas** simples criado com **Flask*
 - Armazenamento de dados dos jogadores no banco de dados.
 - Exibição de resultados ao final do quiz.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas :laptop:
 
 - **Flask**: Framework para desenvolvimento web em Python.
 - **MySQL**: Sistema de gerenciamento de banco de dados.
