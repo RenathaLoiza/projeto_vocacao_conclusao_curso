@@ -17,6 +17,8 @@ Este projeto é um **Jogo de Perguntas e Respostas** simples criado com **Flask*
 - **HTML/CSS**: Linguagens para estruturar e estilizar o frontend.
 - **Python**: Linguagem principal para a lógica do backend.
 - **figma**:Para o esboço do projeto do desing do projeto.
+  [Design no Figma](https://www.figma.com/design/rfI8XbMvqRqWPVbb7CSULt/Untitled?node-id=0-1&t=4bYENdfheLTWOQI9-1)
+
 
 ## Estrutura do Projeto
 
