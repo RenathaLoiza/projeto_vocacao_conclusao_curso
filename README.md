@@ -1,4 +1,4 @@
-# Quiz Game &#127918; U+1F3C6; - Jogo de Perguntas e Respostas
+# Quiz Game &#127918; U+1F3C6 - Jogo de Perguntas e Respostas
 
 Este projeto é um **Jogo de Perguntas e Respostas** simples criado com **Flask** (para o backend), **MySQL** (para o banco de dados) e **HTML/CSS** (para o frontend). O objetivo do jogo é testar os conhecimentos do usuário com perguntas sobre programação em Python, com um sistema de pontuação que é armazenado no banco de dados.
 
@@ -10,7 +10,7 @@ Este projeto é um **Jogo de Perguntas e Respostas** simples criado com **Flask*
 - Armazenamento de dados dos jogadores no banco de dados.
 - Exibição de resultados ao final do quiz.
 
-## Tecnologias Utilizadas U+1F4BB;
+## Tecnologias Utilizadas U+1F4BB
 
 - **Flask**: Framework para desenvolvimento web em Python.
 - **MySQL**: Sistema de gerenciamento de banco de dados.
