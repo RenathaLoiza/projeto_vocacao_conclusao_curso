@@ -1,0 +1,37 @@
+-- Criação do banco de dados
+CREATE DATABASE quiz_game;
+
+-- Seleção do banco de dados
+USE quiz_game;
+
+-- Tabela para armazenar perguntas e respostas
+CREATE TABLE questions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    question TEXT NOT NULL,
+    responder1 TEXT NOT NULL,
+    responder2 TEXT NOT NULL,
+    responder3 TEXT NOT NULL,
+    responder4 TEXT NOT NULL,
+    correta_responder INT NOT NULL
+);
+
+-- Tabela para armazenar jogadores
+CREATE TABLE players (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(100) NOT NULL,
+    points INT DEFAULT 0
+);
+
+-- Inserção de perguntas e respostas pré-selecionadas
+INSERT INTO questions (question, responder1, responder2, responder3, responder4, correta_responder)
+VALUES 
+('1. O que o seguinte código faz? \n\nx = 3\nx += 2\nprint(x)', 'a) Imprime 3', 'b) Imprime 5', 'c) Imprime 2', 'd) Lança um erro', 2),
+('2. O que o operador // faz em Python?', 'a) Realiza a divisão comum', 'b) Realiza a divisão e arredonda para o número inteiro mais próximo', 'c) Realiza a divisão inteira (descarta a parte decimal)', 'd) Multiplica os números', 3),
+('3. Qual é a saída do seguinte código em Python? \n\nx = 10\nif x > 5:\n    print("Maior que 5")\nelse:\n    print("Menor ou igual a 5")', 'a) Maior ou igual a 5', 'b) Menor ou igual a 5', 'c) Maior que 5', 'd) Não imprime nada', 3),
+('4. Como você cria uma função em Python que soma dois números?', 'a) def somar(a, b): return a + b', 'b) sum(a, b): a + b', 'c) function somar(a, b): a + b', 'd) def somar(a, b): a - b', 4),
+('5. O que o seguinte código faz? \n\nfor i in range(3, 6):\n    print(i)', 'a) Imprime 3, 4, 5', 'b) Imprime 3, 4, 5, 6', 'c) Imprime 1, 2, 3', 'd) Lança um erro de sintaxe', 1),
+('6. Qual é o resultado da expressão 3 == 3 em Python?', 'a) True', 'b) False', 'c) Nenhum', 'd) Erro', 1),
+('7. Como você cria uma lista vazia em Python?', 'a) []', 'b) {}', 'c) ()', 'd) None', 1),
+('8. Qual é a saída do seguinte código Python? \n\nx = 2\ny = 3\nprint(x * y + 4)', 'a) 10', 'b) 14', 'c) 8', 'd) 6', 2),
+('9. O que a função len() faz em Python?', 'a) Retorna o valor do último índice de uma lista', 'b) Retorna o número de elementos em uma lista, string ou outro objeto iterável', 'c) Retorna o comprimento máximo de uma string', 'd) Não existe em Python', 2),
+('10. Qual é a sintaxe correta para criar um dicionário em Python?', 'a) d = [1: "a", 2: "b"]', 'b) d = (1: "a", 2: "b")', 'c) d = {1: "a", 2: "b"}', 'd) d = <1: "a", 2: "b">', 3);
