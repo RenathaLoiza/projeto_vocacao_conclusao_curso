@@ -1,4 +1,4 @@
-# Quiz Game - Jogo de Perguntas e Respostas
+# Quiz Game &#127918; - Jogo de Perguntas e Respostas
 
 Este projeto é um **Jogo de Perguntas e Respostas** simples criado com **Flask** (para o backend), **MySQL** (para o banco de dados) e **HTML/CSS** (para o frontend). O objetivo do jogo é testar os conhecimentos do usuário com perguntas sobre programação em Python, com um sistema de pontuação que é armazenado no banco de dados.
 
