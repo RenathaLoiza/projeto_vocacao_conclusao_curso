@@ -118,13 +118,13 @@ O projeto é composto pelas seguintes partes:
 
     Ao acessar a URL do jogo, você verá um formulário para inserir seu nome.
 
-    ![Página de Início](https://via.placeholder.com/600x400.png?text=Página+de+Início)
+    ![Página de Início](http://127.0.0.1:5000/)
 
 2. **Quiz de Perguntas**:
 
     Durante o quiz, você verá as perguntas e poderá selecionar uma resposta.
 
-    ![Página de Pergunta](https://via.placeholder.com/600x400.png?text=Quiz+de+Perguntas)
+    ![Página de Pergunta](http://127.0.0.1:5000/quiz/)
 
 <!--3. **Resultado Final**:
 
